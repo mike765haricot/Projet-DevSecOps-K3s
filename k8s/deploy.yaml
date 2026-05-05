@@ -49,6 +49,8 @@ spec:
       labels:
         app: frontend
     spec:
+    serviceAccountName: app2-sa
+      automountServiceAccountToken: true
       containers:
       - name: frontend
         image: frontend-web:v2
