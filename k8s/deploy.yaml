@@ -49,7 +49,7 @@ spec:
       labels:
         app: frontend
     spec:
-    serviceAccountName: app2-sa
+      serviceAccountName: app2-sa
       automountServiceAccountToken: true
       containers:
       - name: frontend
