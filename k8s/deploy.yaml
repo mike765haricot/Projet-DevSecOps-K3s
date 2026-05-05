@@ -50,7 +50,7 @@ spec:
         app: frontend
     spec:
       serviceAccountName: app2-sa
-      automountServiceAccountToken: true
+      automountServiceAccountToken: false
       containers:
       - name: frontend
         image: frontend-web:v2
